@@ -12,6 +12,9 @@ public class InfluencerHomePage {
 	private WebElement influencerDashboard;
 	
 	
+	@FindBy(xpath="//button[text()='Create Campaign']")
+	private WebElement createCampaignBtn;
+	
 	
 	
 	public InfluencerHomePage(WebDriver driver) {
